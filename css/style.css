@@ -13,3 +13,8 @@
 .debug .ms_portfolio {
     min-height: 856px;
 }
+
+.debug .ms_about {
+    min-height: 485px;
+    background-color: #1abc9c;
+}
