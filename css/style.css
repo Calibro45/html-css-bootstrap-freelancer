@@ -14,9 +14,18 @@
     min-height: 856px;
 }
 
+.debug .ms_card {
+    min-height: 260px;
+    border: 1px solid black;
+}
+
 .debug .ms_about {
     min-height: 490px;
     background-color: #1abc9c;
+}
+
+.debug .ms_card_about{
+    border: 1px solid black;
 }
 
 .debug .ms_contact {
@@ -27,6 +36,10 @@
     min-height: 240px;
     background-color: #3a546d;
     color: white;
+}
+
+.debug .ms_info_card {
+    border: 1px solid black;
 }
 
 .debug .ms_copyright {
