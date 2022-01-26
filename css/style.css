@@ -153,4 +153,12 @@ img {
     .ms_title-section {
         font-size: 22px;
     }
+
+    /* about */
+
+    .ms_about-text {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
 }
