@@ -84,10 +84,21 @@ img {
     visibility: hidden;
 }
 
-.ms_card-wrap:hover .ms_overlay::after {
+.ms_card-wrap:hover .ms_overlay::after,
+.ms_card-wrap:hover .fas.fa-plus {
     cursor: pointer;
     visibility: visible;
 }
+
+.ms_portfolio-card .fas.fa-plus {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    z-index: 1;
+}
+
+
 
 .debug .ms_about {
     min-height: 490px;
