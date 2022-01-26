@@ -1,14 +1,25 @@
-header ol {
-    list-style-type: none;
-    margin-bottom: 0;
-}
+
+/* navbar */
 
 .debug .ms_nav-bgcolor {
     background-color: #2c3e50;
     color: white;
+    text-transform: uppercase;
 }
 
+.ms_main-nav {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 14px;
+}
 
+.ms_main-nav a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* jumbotron */
 
 .debug .ms_jumbo-bgcol {
     background-color: #1abc9c;
