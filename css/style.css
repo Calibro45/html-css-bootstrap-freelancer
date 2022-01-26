@@ -5,6 +5,26 @@ img {
     display: block;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+a:hover {
+    color: #1eaf96;
+}
+
+.active {
+    color: #1eaf96;
+}
+
+ul,ol {
+    list-style-type: none;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
 /* navbar */
 
 .ms_nav-bgcolor {
@@ -14,15 +34,7 @@ img {
 }
 
 .ms_main-nav {
-    list-style-type: none;
-    margin-bottom: 0;
-    padding: 0;
     font-size: 14px;
-}
-
-.ms_main-nav a {
-    text-decoration: none;
-    color: currentColor;
 }
 
 /* jumbotron */
@@ -132,20 +144,20 @@ img {
     border-right: none;
 }
 
-
 #contact .ms_cta-form {
     background-color: #1abc9c;
     border-color: #1abc9c;
 }
 
+/* info */
 
+.ms_info {
+    background-color: #3a546d;
+    padding: 40px 20px;
+}
 
-
-
-
-
-.debug .ms_info_card {
-    border: 1px solid black;
+.ms_info_card {
+    font-weight: 500;
 }
 
 .debug .ms_copyright {
