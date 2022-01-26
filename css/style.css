@@ -66,7 +66,7 @@ img {
     font-size: 36px;
 }
 
-.debug .ms_portfolio-card {
+.ms_portfolio-card {
     border-radius: 5px;
     overflow: hidden;
 }
@@ -98,16 +98,23 @@ img {
     z-index: 1;
 }
 
+/* about */
 
-
-.debug .ms_about {
-    min-height: 490px;
+.ms_about {
     background-color: #1abc9c;
 }
 
-.debug .ms_card_about{
-    border: 1px solid black;
+#about .ms_about-text {
+    column-count: 2;
+    column-gap: 25px;
+    font-weight: 500;
 }
+
+
+
+
+
+
 
 .debug .ms_contact {
     min-height: 689px;
