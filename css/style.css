@@ -43,7 +43,7 @@ img {
 }
 
 .ms_jumbo-title {
-    font-size: 42px;
+    font-size: 50px;
 }
 
 .ms_star-line:before,
@@ -51,7 +51,7 @@ img {
     content: "";
     display: block;
     width: 155px;
-    height: 2px;
+    height: 4px;
     background-color: #fff;
 }
 
@@ -110,21 +110,39 @@ img {
     font-weight: 500;
 }
 
-
-
-
-
-
-
-.debug .ms_contact {
-    min-height: 689px;
-}
+/* contact */
 
 .debug .ms_info {
     min-height: 240px;
     background-color: #3a546d;
     color: white;
 }
+
+#contact ::placeholder {
+    font-size: 18px;
+    color: #4d5b6a;
+    font-weight: 500;
+}
+
+#contact .ms_form,
+#contact .ms_form-area {
+    border-bottom: 2px solid #d9d9d9;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+#contact .ms_cta-form {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+
+
+
+
+
 
 .debug .ms_info_card {
     border: 1px solid black;
@@ -156,9 +174,23 @@ img {
 
     /* about */
 
+    #about {
+        padding: 0 60px;
+    }
+
     .ms_about-text {
         display: flex;
         flex-direction: column;
         gap: 25px;
+    }
+
+    /* contact */
+
+    #contact {
+        padding: 0 60px;
+    }
+
+    #contact ::placeholder {
+        font-size: 14px;
     }
 }
