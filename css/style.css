@@ -71,6 +71,24 @@ img {
     overflow: hidden;
 }
 
+.ms_overlay::after {
+    content: "";
+    display: block;
+    background-color: #1abc9c;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.ms_card-wrap:hover .ms_overlay::after {
+    cursor: pointer;
+    visibility: visible;
+}
+
 .debug .ms_about {
     min-height: 490px;
     background-color: #1abc9c;
@@ -105,7 +123,7 @@ img {
 @media screen and (max-width:576px) {
 
     .ms_jumbo-title {
-        font-size: 22px;
+        font-size: 26px;
     }
     
     .ms_jumbo-info {
